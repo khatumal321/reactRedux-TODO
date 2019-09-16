@@ -1,0 +1,120 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    /* min-height: 100vh; */
+    /* display: flex; */
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* font-size: calc(10px + 2vmin); */
+    color: white;
+  }
+  #h1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+  }
+  #input{
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: transparent;
+    color: white;
+  }
+  @media screen and (max-width: 600px){
+    #input{
+      width: 90%;
+      margin: 2%;      
+    }
+  }
+  #btn{
+    width: 10%;
+    height: 45px;
+    font-size: 30px;
+    margin: 1%;
+    background-color: transparent;
+    color: white;
+  }
+  @media screen and (max-width: 600px){
+    #btn{
+      width: 30%;
+    }
+    }
+
+    #btn2{
+      width: 12%;
+      height: 45px;
+      font-size: 30px;
+      margin: 1%;
+      background-color: transparent;
+      color: white;
+    }
+    @media screen and (max-width: 600px){
+      #btn2{
+        width: 45%;
+      }
+      }
+
+      #btn3{
+        width: 12%;
+        height: 45px;
+        font-size: 30px;
+        margin: 1%;
+        background-color: transparent;
+        color: white;
+      }
+      @media screen and (max-width: 600px){
+        #btn3{
+          width: 45%;
+        }
+        }
+
+        #btn4{
+          width: 12%;
+          height: 45px;
+          font-size: 30px;
+          margin: 1%;
+          background-color: transparent;
+          color: white;
+        }
+        @media screen and (max-width: 600px){
+          #btn4{
+            width: 45%;
+          }
+          }
+
+      li{
+        color: white;
+        font-size: 30px;
+        list-style: none;
+      }
+      #edit{
+        background-color: transparent;
+        width: 150px;
+        margin: 1%;
+        height: 45px;
+        font-size: 30px;
+        color: white;
+
+      }
+      @media screen and (max-width: 600px){
+        #edit{
+          width: 25%;
+        }
+        }
+      #delete{
+        background-color: transparent;
+        width: 150px;
+        height: 45px;
+        font-size: 30px;
+        color: white;
+      }
+  
+  
